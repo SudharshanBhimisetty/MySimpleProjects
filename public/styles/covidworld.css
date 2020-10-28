@@ -1,0 +1,120 @@
+
+
+#goBack{
+	margin-top:30px;
+	margin-left:30px;
+	font-size:1.2rem;
+}
+
+body{
+  background-color: black;
+  color:white;
+	overflow-y: hidden;
+}
+
+#heading{
+  text-align:center;
+  word-spacing:10px;
+  margin-top:50px;
+}
+
+.main{
+  flex-direction:column;
+}
+.container{
+  width:500px;
+}
+
+.container:focus{
+    border:none;
+}
+
+input{
+    width:100%;
+    height:30px;
+    background-color:#f7f7f7;
+    border:4px solid steelblue;
+    color:steelblue;
+    margin:0;
+    box-sizing: border-box;
+    padding:30px;
+    border-radius: 40px;
+    font-size:1.3rem;
+}
+
+
+
+.stats{
+    border:4px solid steelblue;
+    margin-top: 20px;
+    list-style: none;
+    padding : 10px;
+    border-radius: 30px;
+    padding-left: 30px;
+    line-height: 2rem;
+}
+
+
+.p1{
+    font-size: 1.2rem;
+}
+
+.p2{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+#close{
+    border : 1px solid white;
+    color : white;
+    border-radius: 30px;
+}
+
+#close:hover{
+    font-size: 1.2em;
+    color : white;
+    border:none;
+}
+
+
+.footer{
+	position:fixed;
+	font-size:1.3rem;
+	bottom:30px;
+}
+
+.me{
+    background: url("https://api.sololearn.com/Uploads/Avatars/12876414.jpg")no-repeat center/contain;
+     
+    width: 60px;
+    height: 60px;
+    bottom: 35px;
+    right: 15px;
+    display: block;
+    position: fixed;
+    z-index: 9999;
+    border-radius: 50%; 
+    animation: me 2s linear infinite alternate;
+}
+
+@keyframes me{
+    from{
+        transform: translateY(-7px)
+    }
+
+    to{
+        transform: translateY(7px)
+    }
+}
+
+
+
+
+
+
+
+
+

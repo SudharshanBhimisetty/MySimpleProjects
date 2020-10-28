@@ -1,0 +1,80 @@
+body{
+    background-color: black;
+    color:white;
+}
+
+
+.goBack{
+	position:fixed;
+	top:30px;
+	left:30px;
+	z-index:100;
+}
+
+.goBack a{
+	color:white;
+	text-decoration:none;
+	font-size:1.4rem;
+	  font-family: monospace;
+	word-spacing:-0.3rem;
+}
+
+.goBack a:hover{
+	text-decoration:underline;
+}
+
+
+#d{
+	font-size:1.1rem;
+	line-height:25px;
+}
+
+
+.main{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.box{
+    border-radius: 1.1rem;
+   border:2px solid white;
+  padding:40px;
+}
+
+#a{
+	margin-bottom:30px;
+}
+
+.me{
+    background: url("https://api.sololearn.com/Uploads/Avatars/12876414.jpg")no-repeat center/contain;
+    width: 60px;
+    height: 60px;
+    bottom: 35px;
+    right: 16px;
+    display: block;
+    position: fixed;
+    z-index: 9999;
+    border-radius: 50%;
+    animation: me 2s linear infinite alternate;
+}
+
+@keyframes me{
+    from{
+        transform: translateY(-7px)
+    }
+
+    to{
+        transform: translateY(7px)
+    }
+}
+
+
+
+.made-by{
+    position:fixed;
+	bottom:30px;
+}
