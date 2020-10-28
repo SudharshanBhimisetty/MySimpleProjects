@@ -42,6 +42,6 @@ app.get("/weather",function(req,res){
 	res.render("weather.html");
 })
 
-app.listen(process.env.PORT || 3000, function(){
+app.listen(process.env.PORT || 80, function(){
   console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
 });
